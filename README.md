@@ -9,7 +9,7 @@ nhendl require doujin id/code from nhentai.net website, you can clearly see the 
 - nhendl can print the full info of doujin, add the option:
   > `nhendl -d 133769 --fulldesc`
 - When you want using async-mode to download the doujin, add the option:
-  > `nhendl -d 133769 --fulldecs --async`
+  > `nhendl -d 133769 --fulldesc --async`
   - `--async` option require faster connection to significant result.
   - When nhendl downloading using async-mode, nhendl will limit goroutines spawn to 20 concurrent connection, is require to avoid cloudflare limit connection from same IP/connection.
 <br>
